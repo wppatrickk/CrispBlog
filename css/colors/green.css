@@ -1,0 +1,62 @@
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-meta p .fa,
+.sticky .read-more,
+.sidepanel h3,
+.page-subtitle,
+ul#recentcomments li:before,
+.sidepanel ul li > a:before,
+.sidepanel ul li a:hover,
+.post-share span,
+.post-title a,
+.pagination a,
+.pagination span {
+	color: #007849;
+}
+
+#header,
+.post.sticky,
+.sticky .read-more:hover,
+.read-more,
+#footer,
+.sidepanel form input[type="submit"],
+.page-links a,
+.post-share a,
+#respond input[type="submit"],
+body .button-group button,
+#infscr-loading,
+.pagination span.current,
+.pagination a:hover,
+.search-submit {
+	background: #007849;
+}
+
+.pagination a,
+.pagination span {
+	border: 1px solid #007849;
+}
+
+body .pictures .post-wrap {
+	background-color: rgba(0, 120, 73, 0.8);
+}
+
+::selection {
+	background: #007849;
+	color: #fff;
+}
+
+::-moz-selection {
+	background: #007849;
+	color: #fff;
+}
+
+@media screen and (max-width : 900px) {
+	#menu ul li a {
+		color: #007849;
+	}
+}

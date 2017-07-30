@@ -1,0 +1,55 @@
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-meta p .fa,
+.sticky .read-more,
+.sidepanel h3,
+.page-subtitle,
+ul#recentcomments li:before,
+.sidepanel ul li > a:before,
+.sidepanel ul li a:hover,
+.post-share span,
+.post-title a,
+.pagination a,
+.pagination span {
+	color: #000;
+}
+
+#header,
+.post.sticky,
+.sticky .read-more:hover,
+.read-more,
+#footer,
+.sidepanel form input[type="submit"],
+.page-links a,
+.post-share a,
+#respond input[type="submit"],
+body .button-group button,
+#infscr-loading,
+.icon-bars,
+.icon-bars:after,
+.icon-bars:before,
+.pagination span.current,
+.pagination a:hover,
+.search-submit {
+	background: #000;
+}
+
+.pagination a,
+.pagination span {
+	border: 1px solid #000;
+}
+
+body .pictures .post-wrap {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width : 900px) {
+	#menu ul li a {
+		color: #000;
+	}
+}
