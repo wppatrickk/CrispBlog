@@ -7,7 +7,6 @@
 			<?php $paged = ( get_query_var('paged') == 0 ) ? 1 : get_query_var('paged');
 			$args = array(
 				'post_type' => 'post',
-				'posts_per_page' => -1,
 				'paged' => $paged
 			);
 
@@ -35,8 +34,8 @@
 								<div class="post-meta">
 									<div class="post-meta-left">
 										<p>
-											<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i><span class="meta"><?php echo esc_html_x( 'Posted on ', 'post date', 'crispblog' ); ?></span> <span><?php the_time('j M, Y'); ?></span></span>
-											<span class="post-author"><i class="fa fa-user" aria-hidden="true"></i><span class="meta"><?php echo esc_html_x( 'by ', 'post author', 'crispblog' ); ?></span> <span><?php the_author(); ?></span></span>
+											<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i><span class="meta"><?php echo esc_html_x( 'Posted on ', 'post date', 'wpd-inspire' ); ?></span> <span><?php the_time('j M, Y'); ?></span></span>
+											<span class="post-author"><i class="fa fa-user" aria-hidden="true"></i><span class="meta"><?php echo esc_html_x( 'by ', 'post author', 'wpd-inspire' ); ?></span> <span><?php the_author(); ?></span></span>
 										</p>
 									</div>
 
@@ -51,7 +50,7 @@
 									<p><?php $excerpt = get_the_excerpt();
 									echo wp_trim_words($excerpt, 40); ?></p>
 
-									<a href="<?php the_permalink(); ?>" class="read-more"><?php echo __( 'Read More', 'crispblog' ); ?></a>
+									<a href="<?php the_permalink(); ?>" class="read-more"><?php echo __( 'Read More', 'wpd-inspire' ); ?></a>
 								</div>
 							</div>
 

@@ -46,7 +46,7 @@
 									<p><?php $excerpt = get_the_excerpt();
 									echo wp_trim_words($excerpt, 20); ?></p>
 
-									<a href="<?php the_permalink(); ?>" class="read-more"><?php echo __( 'Read More', 'crispblog' ); ?></a>
+									<a href="<?php the_permalink(); ?>" class="read-more"><?php echo __( 'Read More', 'wpd-inspire' ); ?></a>
 								</div>
 							</div>
 
